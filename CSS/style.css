@@ -1,0 +1,177 @@
+html{
+    padding: 0;
+    margin: 0;
+   
+}
+body{
+    background: #ddd;
+    font-family: monospace;
+}
+
+.container-table {
+    width: 90%;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 0 20px #333;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-auto-rows: 50px;
+
+}
+
+.table-title{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    background: rgba(40, 64, 120, 1);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:1.9em;
+
+}
+
+.table-header, .table-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-header{
+    font-weight: bold;
+    font: size 1.5em;
+
+}
+
+.table-item{
+    padding: 1opx;
+    font: size 1.5em;
+
+}
+
+.table-consults{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    border: none;
+}
+a:hover{
+    color:rgba(40, 64, 120, 1);
+}
+.boton{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    background: rgba(40, 64, 120, 1);
+    color:#ddd;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #333;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    
+}
+
+.boton-guardar-volver {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    background: rgba(40, 64, 120, 1);
+    color:#ddd;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #333;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    width: 75px;
+}
+
+.boton-editar-eliminar{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    background: rgba(40, 64, 120, 1);
+    color:#ddd;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #333;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    width: 80px;
+    margin-right: 10px;
+}
+.boton:hover{
+    background: #ddd;
+    color:rgba(40, 64, 120, 1);
+}
+.boton-editar-eliminar:hover{
+    background: #ddd;
+    color:rgba(40, 64, 120, 1);
+}
+
+.boton-guardar-volver:hover{
+    background: #ddd;
+    color:rgba(40, 64, 120, 1);
+}
+
+.consults{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* paginacion */
+
+.active > a{
+    background: rgb(255,116,0); 
+}
+ul{
+   margin-left: 0px;
+   padding: 0px;
+} 
+ul > li{
+   list-style: none;
+   display: inline-block;
+   margin-right:7px;
+}
+ul > li > a {
+   color: #FFFFFF;
+   text-decoration: none;
+   padding: 5px 10px 5px 10px;
+ display: block;
+ background: rgba(40, 64, 120, 1); 
+ border-radius: 20px;
+ box-shadow: 0 0 15px #333;
+}
+.btn > a{
+   padding: 2px;
+ background: rgba(40, 64, 120, 1);
+  border-radius: 2px;
+  text-align: center;
+  width:30px;
+  box-shadow: 0 0 15px #333;
+}
